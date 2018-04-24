@@ -38,6 +38,7 @@
 .redactor-editor,
 .redactor-box {
   background: #fff;
+	color: #000;
 }
 /*
 	Z-index setup
@@ -130,7 +131,7 @@ body .redactor-box-fullscreen {
   content: attr(placeholder);
   display: block;
   /* For Firefox */
-  color: #999 !important;
+  color: #000 !important;
   font-weight: normal !important;
 }
 /* Placeholder in linebreaks mode */
